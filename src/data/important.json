@@ -1,0 +1,15 @@
+{
+  "services" : [
+  {
+    "id": 1,
+    "title": "Reusable Shopping Bag",
+    "slug": "reusable-shopping-bag",
+    "desc": "Say goodbye to single-use plastic bags with our reusable shopping bag. Made from recycled plastic fibers, it's sturdy, spacious, and environmentally friendly.",
+    "price": 5.99,
+    "founder": "EcoSolutions Inc.",
+    "isPremium": false,
+    "image": "/photaas/img1.jpg",
+    "reuse_plastic_context": "Our shopping bag is a sustainable alternative to disposable plastic bags. By using this bag, you're helping to reduce the amount of plastic waste that ends up in landfills and oceans."
+  }
+]
+}
