@@ -48,7 +48,7 @@ const dummyContent = [
     title: "Know About Circl8 more deeply",
     description: (
       <div className="text-black text-md">
-    <p className="">Circl8 is a company dedicated to making plastic recycling simple and effective. We collect plastic waste from businesses, recycle it, and supply it back to companies for reuse. Our goal is to help businesses reduce their environmental impact and support a sustainable future.</p>
+    <p>Circl8 is a company dedicated to making plastic recycling simple and effective. We collect plastic waste from businesses, recycle it, and supply it back to companies for reuse. Our goal is to help businesses reduce their environmental impact and support a sustainable future.</p>
     <br/>
     <br/>
     <h2 className="font-bold text-xl">Our Services:</h2>
@@ -79,11 +79,11 @@ const dummyContent = [
         <br/>
         <li><strong>Innovative Solutions:</strong> We are constantly innovating to improve our recycling processes and services. Our commitment to research and development ensures that we stay at the forefront of the recycling industry, providing you with the latest and most effective solutions.</li>
         <br/>
-        <li><strong>Customized Programs:</strong> We understand that every business is unique. That's why we offer customized recycling programs tailored to your specific needs and goals, ensuring the best possible outcomes for your waste management strategy.</li>
+        <li><strong>Customized Programs:</strong> We understand that every business is unique. That is why we offer customized recycling programs tailored to your specific needs and goals, ensuring the best possible outcomes for your waste management strategy.</li>
     </ul>
     <br/>
     <br/>
-    <p className="text-lg font-semibold">Reach out to us today for more information and to discuss how Circl8 can tailor our recycling services to meet your specific business needs. Let's work together to create a sustainable future.</p>
+    <p className="text-lg font-semibold">Reach out to us today for more information and to discuss how Circl8 can tailor our recycling services to meet your specific business needs. Lets work together to create a sustainable future.</p>
     <br/>
   
 <div className="flex space-x-4 justify-center items-center">

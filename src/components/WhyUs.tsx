@@ -9,7 +9,7 @@ function WhyUs() {
     <div className="grid grid-cols-2 lg:grid-cols-3 gap-5 max-w-6xl mx-auto w-full py-20 bg-white">
       <div className="col-span-2 lg:col-span-3 flex justify-center items-center pt-10 pb-20">
         {/* 0011a8 */}
-        <p  className=' text-center text-3xl  font-extrabold tracking-light text-[#0011a8]  p-7 sm:text-6xl bg-[#1d34ff0c]' style={{width: '750px', borderRadius: '20px'}}>"Why pick us"</p>
+        <p  className=' text-center text-3xl  font-extrabold tracking-light text-[#0011a8]  p-7 sm:text-6xl bg-[#1d34ff0c]' style={{width: '750px', borderRadius: '20px'}}>Why pick us</p>
       </div>
       <WobbleCard containerClassName="col-span-1 lg:col-span-3  min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]">
         <div className="max-w-sm">
@@ -37,7 +37,7 @@ function WhyUs() {
           Innovative Plastic Reprocessing
           </h2>
           <p className="mt-4 text-left  text-base/6 text-neutral-200">
-          Explore our cutting-edge methods for recycling plastic. Our platform demonstrates how we're revolutionizing plastic reprocessing, turning waste into valuable resources and paving the way for a greener tomorrow.
+          Explore our cutting-edge methods for recycling plastic. Our platform demonstrates how we are revolutionizing plastic reprocessing, turning waste into valuable resources and paving the way for a greener tomorrow.
           </p>
         </div>
         <Image
