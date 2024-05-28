@@ -38,20 +38,20 @@ const circl8Testimonials = [
 function Circl8Testimonials() {
   return (
     <div className="h-[40rem] w-full bg-white bg-dot-[#3748e3]/[1] relative flex flex-col items-center justify-center overflow-hidden">
-        <h2 className="text-5xl font-bold text-center mb-8 z-10 text-[#0011a8]">Hear our Harmony: Voices of success</h2>
-        
-        <div className="flex justify-center w-full overflow-hidden px-4 sm:px-6 lg:px-8 pt-10">
-            <div className="w-full max-w-6xl">
-            <InfiniteMovingCards
-                items={circl8Testimonials}
-                direction="right"
-                speed="slow"
-      />
-            </div>
-            
+      <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-8 z-10 text-[#0011a8]">Listen to Our Success Stories</h2>
+      
+      <div className="flex justify-center w-full overflow-hidden px-4 sm:px-6 lg:px-8 pt-10">
+        <div className="w-full max-w-6xl">
+          <InfiniteMovingCards
+            items={circl8Testimonials}
+            direction="right"
+            speed="slow"
+          />
         </div>
+      </div>
     </div>
   )
 }
+
 
 export default Circl8Testimonials

@@ -37,3 +37,25 @@ body {
 .no-visible-scrollbar::-webkit-scrollbar {
   display: none;
 }
+
+
+/* Add this CSS to handle the navbar styling */
+@media (max-width: 300px) {
+  .menu {
+    display: none;
+  }
+  .burger-menu {
+    display: block;
+  }
+}
+
+@media (min-width: 301px) {
+  .menu {
+    display: flex;
+  }
+  .burger-menu {
+    display: none;
+  }
+}
+
+

@@ -25,35 +25,18 @@ const resueFact = [
       "slug": "community-plastic-cleanup",
       "isFeatured": true
     },
-    // {
-    //   "title": "Plastic Recycling Education Programs",
-    //   "desc": "Educating communities about the importance of plastic recycling and its positive impact on the environment.",
-    //   "slug": "recycling-education",
-    //   "isFeatured": true
-    // },
-    // {
-    //   "title": "Innovative Plastic Repurposing Projects",
-    //   "desc": "Exploring creative ways to repurpose recycled plastic materials into useful products, reducing landfill waste.",
-    //   "slug": "plastic-repurposing-projects",
-    //   "isFeatured": true
-    // },
-    // {
-    //   "title": "Sustainable Plastic Manufacturing Practices",
-    //   "desc": "Learn about our commitment to sustainable manufacturing practices aimed at minimizing plastic pollution.",
-    //   "slug": "sustainable-manufacturing",
-    //   "isFeatured": true
-    // }
+     
   ]
   
 
 
 const Feature = () => {
   return (
-    <div className='p-20 bg-[#2c60f117] h-auto md:h-[40rem]'>
+    <div className='p-20 bg-[#2c60f117] h-auto lg:h-[40rem]'>
         <div className='max-w-7xl mx-auto px-4 sm:px-6'>
             <div className='text-center flex  justify-center'>
                 {/* <h2 className='text-base text-black font-semibold tracking-wide uppercase'>Lorem, ipsum dolor.</h2> */}
-                <p className=' text-center text-3xl  font-extrabold tracking-light text-[#0011a8]  p-7 sm:text-6xl bg-[#1d34ff0c]' style={{width: '750px', borderRadius: '20px'}}>What is our service?</p>
+                <p className='text-center text-2xl font-extrabold tracking-light text-[#0011a8] p-7 sm:text-6xl bg-[#1d34ff0c] sm:w-[750px] w-[300px] rounded-[20px]'>What is our service?</p>
             </div>
             <div className='mt-10'>
 
@@ -68,10 +51,6 @@ const Feature = () => {
 
 
 
-
-
-
-            
             </div>
             {/* <div className='mt-10 text-center'>
                 <Link href={'/'} className='px-4 py-2 rounded border border-neutral-600 text-white bg-[#12539e] hover:bg-[#aed8fa] hover:text-black transition duration-200'>

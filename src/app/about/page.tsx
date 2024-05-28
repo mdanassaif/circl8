@@ -18,7 +18,7 @@ const page = () => {
     <div className="max-w-4xl mx-auto antialiased pt-40 relative">
       {dummyContent.map((item, index) => (
         <div key={`content-${index}`} className="mb-10">
-          <p className={twMerge( "text-3xl mb-4 text-black ")}>
+          <p className={twMerge( "text-2xl md:text-4xl  mb-4 text-black font-bold uppercase")}>
             {item.title}
           </p>
 
@@ -85,7 +85,7 @@ const dummyContent = [
         <br/>
         <p className="text-lg font-semibold">Reach out to us today for more information and to discuss how Circl8 can tailor our recycling services to meet your specific business needs. Let's work together to create a sustainable future.</p>
         <br/>
-        <div className="flex space-x-4 justify-center items-center">
+        <div className="flex space-x-4 justify-center items-center mt-5">
           <a href="https://www.facebook.com/Circl8Recycling" className="transition duration-300 ease-in-out transform hover:scale-110 hover:shadow-lg">
             <Image src={icon1} alt="Facebook" width={32} height={32} className="rounded-full"/>
           </a>
