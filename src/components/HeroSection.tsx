@@ -6,7 +6,7 @@ import { Button } from "./ui/moving-border";
 const HeroSection = () => {
   return (
     // below : py-10 md:py-10'
-    <div className='h-auto md:h-[43rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto body' style={{ paddingTop: '120px', background: 'linear-gradient(to bottom, var(--background-start-color), var(--background-end-color))' }}>
+    <div className='h-auto md:h-[43rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto body' style={{ paddingTop: '120px', paddingBottom: '30px', background: 'linear-gradient(to bottom, var(--background-start-color), var(--background-end-color))' }}>
 
 
       <Spotlight
@@ -26,7 +26,7 @@ const HeroSection = () => {
     <Link href={'#'}>
     <Button
       borderRadius="1.75rem"
-      className="border-transparent px-6 py-2 bg-gradient-to-br from-neutral to-neutral-200 text-white text-lg rounded-lg   transform hover:-translate-y-1 transition duration-400 text-base tracking-wide bg-[#0011a8] font-semibold"
+      className="border-transparent px-6 py-2 bg-gradient-to-br from-neutral to-neutral-200 text-white rounded-lg   transform hover:-translate-y-1 transition duration-400 text-base tracking-wide bg-[#0011a8] font-semibold"
     >
       Book A Call
     </Button>
@@ -34,7 +34,7 @@ const HeroSection = () => {
   <Link href={'#'}>
     <Button
       borderRadius="1.75rem"
-      className="border-transparent px-6 py-2 bg-gradient-to-br from-neutral to-neutral-200 text-black text-lg rounded-lg   transform hover:-translate-y-1 transition duration-400 text-base tracking-wide bg-white font-semibold"
+      className="border-transparent px- py-2 bg-gradient-to-br from-neutral to-neutral-200 text-black  rounded-lg   transform hover:-translate-y-1 transition duration-400 text-base tracking-wide bg-white font-semibold"
     >
       Play A Video
     </Button>

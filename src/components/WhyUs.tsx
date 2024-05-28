@@ -8,7 +8,7 @@ function WhyUs() {
     <div className="bg-white py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
       <div className='text-center flex  justify-center mb-20'>
-        <h1 className='text-center text-2xl font-extrabold tracking-light text-[#0011a8] p-7 sm:text-6xl bg-[#1d34ff0c] sm:w-[750px] w-[300px] rounded-[20px]'>Why Choose Us</h1>
+        <h1 className='text-center text-2xl font-extrabold tracking-tight text-[#0011a8] py-7 px-5 sm:text-4xl bg-[#1d34ff0c] sm:w-[750px] w-full rounded-[20px]'>Why Choose Us</h1>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-8">
           <WobbleCard>
@@ -35,7 +35,7 @@ function WhyUs() {
             </div>
             <div className="relative h-40 sm:h-66">
               <Image
-                src="/photaas/img1.jpg"
+                src="/photaas/img2.jpg"
                 layout="fill"
                 objectFit="cover"
                 alt="Eco Rebirth"
@@ -51,7 +51,7 @@ function WhyUs() {
             </div>
             <div className="relative h-40 sm:h-66">
               <Image
-                src="/photaas/img1.jpg"
+                src="/photaas/img3.jpg"
                 layout="fill"
                 objectFit="cover"
                 alt="Eco Rebirth"
