@@ -65,7 +65,9 @@ const HeroSection = () => {
             </svg>
           </div>
           <ReactPlayer
-            url="https://www.youtube.com/embed/AFTIVN8rRbI?rel=0&showinfo=0&modestbranding=1&iv_load_policy=3"
+            url="https://www.youtube.com/embed/9dO6A44co9A?rel=0&showinfo=0&modestbranding=1&iv_load_policy=3"
+
+            
             controls={false}
             playing
             width="80%"
