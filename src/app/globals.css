@@ -58,4 +58,62 @@ body {
   }
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+.add_font_family_for_para {
+  
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+
+.blur-background {
+  filter: blur(8px);
+}
+
+.video-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(8px);
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 50;
+}
+
+.video-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 51;
+  color: blue;
+}
+
+.video-player {
+  z-index: 52;
+}
+
+@media (max-width: 768px) {
+  .video-player-wrapper {
+    width: 90%;
+    padding-top: 50%; /* Adjust aspect ratio for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .video-player-wrapper {
+    width: 100%;
+    padding-top: 56.25%; /* Adjust aspect ratio for smallest screens */
+  }
+}
 

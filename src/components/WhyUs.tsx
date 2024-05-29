@@ -15,7 +15,7 @@ function WhyUs() {
             <div className="p-8 bg-[#3748e3] rounded-t-lg">
               
               <h2 className="text-white text-2xl sm:text-3xl font-semibold mb-4">Eco Rebirth</h2>
-              <p className="text-white text-lg mb-6">Witness the magic as discarded plastic undergoes a profound metamorphosis. Explore our platform to track the journey of plastic rebirth, fueling a sustainable tomorrow.</p>
+              <p className="text-white text-lg mb-6 add_font_family_for_para">Witness the magic as discarded plastic undergoes a profound metamorphosis. Explore our platform to track the journey of plastic rebirth, fueling a sustainable tomorrow.</p>
             </div>
             <div className="relative h-40 sm:h-66">
               <Image
@@ -31,7 +31,7 @@ function WhyUs() {
           <WobbleCard>
             <div className="p-8 bg-[#3748e3] rounded-t-lg">
               <h2 className="text-white text-2xl sm:text-3xl font-semibold mb-4">Client Echoes</h2>
-              <p className="text-white text-lg mb-6">Discover the reverberating echoes of satisfaction as our clients share their success stories. Dive into our testimonials to witness the impact of our services firsthand.</p>
+              <p className="text-white text-lg mb-6 add_font_family_for_para">Discover the reverberating echoes of satisfaction as our clients share their success stories. Dive into our testimonials to witness the impact of our services firsthand.</p>
             </div>
             <div className="relative h-40 sm:h-66">
               <Image
@@ -47,7 +47,7 @@ function WhyUs() {
           <WobbleCard>
             <div className="p-8 bg-[#3748e3] rounded-t-lg">
               <h2 className="text-white text-2xl sm:text-3xl font-semibold mb-4">Client Chronicles</h2>
-              <p className="text-white text-lg mb-6">Embark on a journey through our client chronicles and unveil the narratives of triumph and transformation. Delve into their experiences to see how we've helped them achieve their goals.</p>
+              <p className="text-white text-lg mb-6 add_font_family_for_para">Embark on a journey through our client chronicles and unveil the narratives of triumph and transformation. Delve into their experiences to see how we've helped them achieve their goals.</p>
             </div>
             <div className="relative h-40 sm:h-66">
               <Image

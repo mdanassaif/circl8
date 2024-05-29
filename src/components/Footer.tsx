@@ -6,7 +6,7 @@ function Footer() {
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 px-4 sm:px-6 lg:px-8">
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">About Us</h2>
-          <p className="mb-4 text-gray-200">Our company is committed to recycling plastic and providing high-quality recycled materials for reuse. We strive to make a positive impact on the environment by reducing plastic waste and promoting sustainability.</p>
+          <p className="mb-4 text-gray-200 ">Our company is committed to recycling plastic and providing high-quality recycled materials for reuse. We strive to make a positive impact on the environment by reducing plastic waste and promoting sustainability.</p>
         </div>
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Quick Links</h2>

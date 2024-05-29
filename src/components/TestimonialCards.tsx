@@ -41,7 +41,7 @@ function Circl8Testimonials() {
       <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-8 z-10 text-[#0011a8]">Listen to Our Success Stories</h2>
       
       <div className="flex justify-center w-full overflow-hidden px-4 sm:px-6 lg:px-8 pt-10">
-        <div className="w-full max-w-6xl">
+        <div className="w-full max-w-6xl add_font_family_for_para">
           <InfiniteMovingCards
             items={circl8Testimonials}
             direction="right"

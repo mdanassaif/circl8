@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import { BackgroundBeams } from '@/components/ui/background-beams';
+import Footer from '@/components/Footer';
 
 function Page() {
   const [email, setEmail] = useState('');
@@ -15,13 +16,13 @@ function Page() {
   };
 
   return (
-    <div className="min-h-screen bg-[#2c60f117] dark:bg-gray-900 py-12 pt-60 relative">
+    <div className="min-h-screen bg-[#2c60f117] dark:bg-gray-900  pt-60 relative">
       <BackgroundBeams className="absolute top-0 left-0 w-full h-full z-0" />
-      <div className="max-w-2xl mx-auto p-4 relative z-10">
+      <div className="max-w-2xl mx-auto p-4 relative z-10 mb-10">
         <h1 className="text-4xl md:text-6xl text-center font-bold mb-8 text-black">
           Contact Us
         </h1>
-        <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center">
+        <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center add_font_family_for_para">
           We&apos;re here to help with questions about our plastic recycling services, programs, or events. Reach out and let us know how we can assist you.
         </p>
         <form onSubmit={handleEmailSubmit} className="space-y-4 mt-4">
@@ -48,7 +49,9 @@ function Page() {
             Send Message
           </button>
         </form>
+        
       </div>
+      <Footer/>
     </div>
   );
 }

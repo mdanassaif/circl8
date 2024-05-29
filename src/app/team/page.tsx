@@ -2,6 +2,7 @@
 import React from "react";
 import { AnimatedTooltip } from "../../components/ui/animated-tooltip";
 import { WavyBackground } from "../../components/ui/wavy-background";
+import Footer from "@/components/Footer";
 
 const team = [
     {
@@ -50,19 +51,23 @@ const team = [
 
 const Team = () => {
   return (
-    <div className="relative h-[43rem] overflow-hidden flex items-center justify-center pt-60 " >
+    <>
+    <div className="relative h-[43rem] overflow-hidden flex items-center   justify-center pt-55 " >
     <WavyBackground className="w-full max-w-7xl mx-auto flex flex-col items-center justify-center h-full">
         <h2 className="text-3xl md:text-4xl lg:text-7xl text-black font-bold text-center mb-8">Meet to our Pro Team</h2>
-        <p className=" text-sm md:text-xl text-black text-center mb-4">Our team excels, achieving remarkable feats through dedication, innovation, collaboration, and determination.
+        <p className=" text-sm md:text-xl text-black text-center mb-4 add_font_family_for_para">Our team excels, achieving remarkable feats through dedication, innovation, collaboration, and determination.
         </p>
         <div className="flex flex-row items-center justify-center mb-10 w-full">
             <AnimatedTooltip items={team}/>
 
-
+ 
         </div>
         </WavyBackground>
     </div>
+      <Footer/>
+      </>
   )
+
 }
 
 export default Team

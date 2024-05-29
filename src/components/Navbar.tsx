@@ -52,7 +52,7 @@ const Navbar = ({ className }: { className?: string }) => {
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <div style={{ padding: '0 0 0 40px' }}>
           <Image
-            src="/photaas/plogo1.png"
+            src="/photaas/plogo2.png"
             width={80}
             height={80}
             alt="recycling process demo"
