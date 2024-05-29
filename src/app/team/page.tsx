@@ -5,59 +5,59 @@ import { WavyBackground } from "../../components/ui/wavy-background";
 import Footer from "@/components/Footer";
 
 const team = [
-    {
-      id: 1,
-      name: "John Doe",
-      designation: "Software Engineer",
-      image:
-        "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80",
-    },
-    {
-      id: 2,
-      name: "Robert Johnson",
-      designation: "Product Manager",
-      image:
-        "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
-    },
-    {
-      id: 3,
-      name: "Jane Smith",
-      designation: "Data Scientist",
-      image:
-        "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
-    },
-    {
-      id: 4,
-      name: "Emily Davis",
-      designation: "UX Designer",
-      image:
-        "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
-    },
-    {
-      id: 5,
-      name: "Tyler Durden",
-      designation: "Soap Developer",
-      image:
-        "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
-    },
-    {
-      id: 6,
-      name: "Dora",
-      designation: "The Explorer",
-      image:
-        "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3534&q=80",
-    },
-  ];
+  {
+    id: 1,
+    name: "Rajesh Kumar",
+    designation: "Project Manager - Plastic Collection",
+    image:
+      "https://randomuser.me/api/portraits/men/91.jpg",
+  },
+  {
+    id: 2,
+    name: "Priya Sharma",
+    designation: "Community Engagement Officer",
+    image:
+      "https://randomuser.me/api/portraits/women/92.jpg",
+  },
+  {
+    id: 3,
+    name: "Amit Patel",
+    designation: "Plastic Recycling Specialist",
+    image:
+      "https://randomuser.me/api/portraits/men/93.jpg",
+  },
+  {
+    id: 4,
+    name: "Sneha Gupta",
+    designation: "UX Designer - Eco Initiatives",
+    image:
+      "https://randomuser.me/api/portraits/women/94.jpg",
+  },
+  {
+    id: 5,
+    name: "Anand Singh",
+    designation: "Logistics Coordinator - Plastic Collection",
+    image:
+      "https://randomuser.me/api/portraits/men/95.jpg",
+  },
+  {
+    id: 6,
+    name: "Neha Verma",
+    designation: "Environmental Education Specialist",
+    image:
+      "https://randomuser.me/api/portraits/women/96.jpg",
+  },
+];
+
 
 const Team = () => {
   return (
     <>
-    <div className="relative h-[43rem] overflow-hidden flex items-center   justify-center pt-55 " >
-    <WavyBackground className="w-full max-w-7xl mx-auto flex flex-col items-center justify-center h-full">
-        <h2 className="text-3xl md:text-4xl lg:text-7xl text-black font-bold text-center mb-8">Meet to our Pro Team</h2>
-        <p className=" text-sm md:text-xl text-black text-center mb-4 add_font_family_for_para">Our team excels, achieving remarkable feats through dedication, innovation, collaboration, and determination.
-        </p>
-        <div className="flex flex-row items-center justify-center mb-10 w-full">
+    <div className="relative h-screen overflow-hidden flex items-center justify-center">
+        <WavyBackground className="w-full max-w-7xl mx-auto flex flex-col items-center justify-center h-full">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl text-black font-bold text-center mb-8">Meet Our Pro Team</h2>
+          <p className="text-[1.1rem] w-[25rem] sm:text-[1.2rem] sm:w-[40rem] lg:text-xl text-black text-center mb-6">Our team excels, achieving remarkable feats through dedication, innovation, collaboration, and determination.</p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 justify-center">
             <AnimatedTooltip items={team}/>
 
  
